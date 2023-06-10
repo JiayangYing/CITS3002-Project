@@ -1,0 +1,12 @@
+Who developed Python Programming Language? <br>a) Wick van Rossum <br>b) Rasmus Lerdorf <br>c) Guido van Rossum <br>d) Niene Stom,C,
+Which type of Programming does Python support? <br>a) object-oriented programming <br>b) structured programming <br>c) functional programming <br>d) all of the mentioned,D,
+Is Python case sensitive when dealing with identifiers? <br>a) no <br>b) yes <br>c) machine dependent <br>d) none of the mentioned,B,
+Which of the following is the correct extension of the Python file? <br>a) .python <br>b) .pl <br>c) .py <br>d) .p,C,
+Is Python code compiled or interpreted? <br>a) Python code is both compiled and interpreted <br>b) Python code is neither compiled nor interpreted <br>c) Python code is only compiled <br>d) Python code is only interpreted,A,
+All keywords in Python are in _________ <br>a) Capitalized <br>b) lower case <br>c) UPPER CASE <br>d) None of the mentioned,D,
+Which of the following is used to define a block of code in Python language? <br>a) Indentation <br>b) Key <br>c) Brackets <br>d) All of the mentioned,A,
+Which keyword is used for function in Python language? <br>a) Function <br>b) def <br>c) Fun <br>d) Define,D,
+Python supports the creation of anonymous functions at runtime using a construct called __________ <br>a) pi <br>b) anonymous <br>c) lambda <br>d) none of the mentioned,C
+Does python support class? <br>a) yes <br>b) no <br> c) I am not sure <br>d) Is this Java?,A,
+Which of the following functions is a built-in function in python? <br>a) factorial() <br>b) print() <br>c) seed() <br>d) sqrt(),B,
+Which of the following is the use of id() function in python? <br>a) Every object doesnt have a unique id <br>b) Id returns the identity of the object <br>c) All of the mentioned<br>d) None of the mentioned,B,

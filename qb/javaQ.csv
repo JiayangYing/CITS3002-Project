@@ -1,0 +1,11 @@
+Who invented Java Programming? <br>a) Guido van Rossum <br>b) James Gosling <br>c) Dennis Ritchie <br>d) Bjarne Stroustrup,B
+Which statement is true about Java? <br>a) Java is a sequence-dependent programming language <br>b) Java is a code dependent programming language <br>c) Java is a platform-dependent programming language <br>d) Java is a platform-independent programming language,D
+Which component is used to compile and debug and execute the java programs? <br>a) JRE <br>b) JIT <br>c) JDK <br>d) JVM,C
+Which one of the following is not a Java feature? <br>a) Object-oriented <br>b) Use of pointers<br>c) Portable <br>d) Dynamic and Extensible,B
+Which of these cannot be used for a variable name in Java? <br>a) identifier & keyword<br>b) identifier<br>c) keyword<br>d) none of the mentioned,C
+What is the extension of java code files?<br>a) .js<br>b) .txt<br>c) .class<br>d) .java,D
+Which environment variable is used to set the java path? <br>a) MAVEN_Path<br>b) JavaPATH<br>c) JAVA<br>d) JAVA_HOME,D
+Which of the following is not an OOPS concept in Java?<br>a) Polymorphism<br>b) Inheritance<br>c) Compilation<br>d) Encapsulation,C
+What is the extension of compiled java classes?<br>a) .txt<br>b) .js<br>c) .class<br>d) .java,C
+Which of the following is a superclass of every class in Java?<br>a) ArrayList<br>b) Abstract class<br>c) Object class<br>d) String,C
+Which of these keywords are used for the block to be examined for exceptions?<br>a) check<br>b) throw<br>c) catch<br>d) try,D

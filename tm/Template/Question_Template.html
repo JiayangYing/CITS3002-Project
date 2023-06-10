@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        p.question {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 1rem 2px;
+            cursor: pointer;
+            width: 120px;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        .option {
+            margin-right: 1rem;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        textarea {
+            width: 80%;
+            height: 200px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <p class="question">Can try {attempt_t} times  Q{question_index}. <br>{question_text}</p>
+    <div class="mcq" style="{answer_style}">
+        <form method="post" class="form-container">
+            <div class="options" style="{option_style}">
+                <label class="option">
+                    <input type="radio" name="choice" value="A"> A
+                </label>
+                <label class="option">
+                    <input type="radio" name="choice" value="B"> B
+                </label>
+                <label class="option">
+                    <input type="radio" name="choice" value="C"> C
+                </label>
+                <label class="option">
+                    <input type="radio" name="choice" value="D"> D
+                </label>
+            </div>
+            <textarea name="code" style="{code_style}"></textarea>
+            <input type="hidden" name="user" value="{user_id}">
+            <input type="hidden" name="type" value="submit">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div>
+        <p style="{result_s_sty}"> {result_state}</p>
+    </div>
+    <div class="correct-answer" style="{correct_answer_style}">
+        <p>Correct Answer: {correct_answer}, Mark: {mark_holder}</p>
+    </div>
+    <div class="navigation">
+        <form method="post" style="{prev_button_style}">
+            <input type="hidden" name="type" value="previous">
+            <input type="hidden" name="user" value="{user_id}">
+            <button type="submit">Previous</button>
+        </form>
+        <form method="post" action = "/homepage" style="">
+            <input type="hidden" name="type" value="backhome">
+            <input type="hidden" name="user" value="{user_id}">
+            <button type="submit">BackHome</button>
+        </form>
+        <form method="post" style="{next_button_style}">
+            <input type="hidden" name="type" value="next">
+            <input type="hidden" name="user" value="{user_id}">
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>

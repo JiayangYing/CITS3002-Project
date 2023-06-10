@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 1rem 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome {user_holder}</h1>
+    <p>Current Mark is {global_mark_holder}</p>
+    <form action="/test" method="post">
+        <input type="hidden" name="type" value="{button1_value}">
+        <input type="hidden" name="user" value="{user_id}">
+        <button type="submit">{button1_text}</button>
+    </form>
+    <form action="/logoff" method="post">
+        <input type="hidden" name="type" value="logoff">
+        <input type="hidden" name="user" value="{user_id}">
+        <button type="submit">Log Out</button>
+    </form>
+</body>
+</html>
